@@ -3,10 +3,10 @@ Django Todo React Application
 
 # Tech Used
 - python v3
-- pipenv
-- Django backend
-- Reacts CRA frontend
-- Graphql
+- [pipenv](https://github.com/pypa/pipenv)
+- [Django](https://github.com/django/django) backend
+- Reacts [CRA](https://github.com/facebook/create-react-app) frontend
+- [Graphql](https://github.com/graphql-python/graphene-django)
 
 
 The backend application has a todo model for testing purposes. The frontend at this time is just a blank CRA. Also important no security was taken to hide any secret django keys since this is just for learning anyhow.
