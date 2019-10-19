@@ -20,7 +20,7 @@ from todo import views
 from graphene_django.views import GraphQLView
 from .schema import schema
 
-router = routers.DefaultRouter()
+router = routers.DefaultRouter(trailing_slash = False)
 router.register(r'todos', views.TodoView, 'todo')
 
 urlpatterns = [

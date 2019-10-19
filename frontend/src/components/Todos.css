@@ -1,0 +1,24 @@
+.todo-wrapper {
+  display: flex;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  width: 415px;
+  line-height: 22px;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.todo-checkbox {
+  margin: 5px;
+  padding-right: 10px;
+}
+
+.todo-title {
+  font-weight: 600;
+}
+
+.todo-container {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
